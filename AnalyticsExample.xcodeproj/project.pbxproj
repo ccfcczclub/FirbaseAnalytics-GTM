@@ -16,10 +16,6 @@
 		5F5A537E1ADE67D500F81DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A537D1ADE67D500F81DF0 /* AppDelegate.swift */; };
 		5F5A53801ADE67D500F81DF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A537F1ADE67D500F81DF0 /* ViewController.swift */; };
 		5F5A539C1ADE69AA00F81DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A53591ADE670C00F81DF0 /* Main.storyboard */; };
-		5F99610A1AE0CF4F0034F503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9961061AE0CF4F0034F503 /* Images.xcassets */; };
-		5F99610B1AE0CF4F0034F503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9961061AE0CF4F0034F503 /* Images.xcassets */; };
-		5F99610C1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9961071AE0CF4F0034F503 /* LaunchScreen.xib */; };
-		5F99610D1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9961071AE0CF4F0034F503 /* LaunchScreen.xib */; };
 		5FC04A7F1AF1DCAA00F787CA /* PatternTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC04A7E1AF1DCAA00F787CA /* PatternTabBarController.m */; };
 		5FC04A811AF1DF8300F787CA /* PatternTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC04A801AF1DF8300F787CA /* PatternTabBarController.swift */; };
 		5FC7AD8E1B0D446A004E3100 /* LogWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FC7AD8D1B0D446A004E3100 /* LogWrapper.mm */; };
@@ -28,6 +24,8 @@
 		A32A90BA223035E3F90AA03F /* Pods_AnalyticsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31902B947FAC7C88BBD6B45 /* Pods_AnalyticsExampleTests.framework */; };
 		B1052C0D572F7C1E90FE2B5F /* Pods_AnalyticsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D182E184DE207C39612484 /* Pods_AnalyticsExample.framework */; };
 		B508D2EF1DD1E6AF0044BF1E /* container in Resources */ = {isa = PBXBuildFile; fileRef = B508D2EE1DD1E6AF0044BF1E /* container */; };
+		B53A77891DDB036300E37E65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53A77881DDB036300E37E65 /* LaunchScreen.xib */; };
+		B53A778B1DDB03E700E37E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53A778A1DDB03E700E37E65 /* Images.xcassets */; };
 		B5C2C1F81DD45FD500603EA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5C2C1F71DD45FD500603EA4 /* GoogleService-Info.plist */; };
 		EF01600C1BD07C1F00F8DA01 /* AnalyticsImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF01600B1BD07C1F00F8DA01 /* AnalyticsImages.xcassets */; };
 		EF01600D1BD07C1F00F8DA01 /* AnalyticsImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF01600B1BD07C1F00F8DA01 /* AnalyticsImages.xcassets */; };
@@ -62,8 +60,6 @@
 		5F5A53791ADE67D500F81DF0 /* AnalyticsExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalyticsExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5A537D1ADE67D500F81DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F5A537F1ADE67D500F81DF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F9961061AE0CF4F0034F503 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5F9961071AE0CF4F0034F503 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		5FC04A7D1AF1DCAA00F787CA /* PatternTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternTabBarController.h; sourceTree = "<group>"; };
 		5FC04A7E1AF1DCAA00F787CA /* PatternTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternTabBarController.m; sourceTree = "<group>"; };
 		5FC04A801AF1DF8300F787CA /* PatternTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternTabBarController.swift; sourceTree = "<group>"; };
@@ -76,6 +72,8 @@
 		8C4E1D357DF938C2DFE64BEF /* Pods-AnalyticsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsExampleTests/Pods-AnalyticsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		B508D2EC1DD1E5E00044BF1E /* AnalyticsExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnalyticsExample.entitlements; sourceTree = "<group>"; };
 		B508D2EE1DD1E6AF0044BF1E /* container */ = {isa = PBXFileReference; lastKnownFileType = folder; path = container; sourceTree = "<group>"; };
+		B53A77881DDB036300E37E65 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = "../FirbaseAnalytics-GTM/AnalyticsExample/LaunchScreen.xib"; sourceTree = "<group>"; };
+		B53A778A1DDB03E700E37E65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../quickstart-ios-master/shared/Images.xcassets"; sourceTree = "<group>"; };
 		B5C2C1F71DD45FD500603EA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C3D182E184DE207C39612484 /* Pods_AnalyticsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnalyticsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C819E8C95DAFC5FD02AF22F7 /* Pods-AnalyticsExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsExampleSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsExampleSwift/Pods-AnalyticsExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,8 +194,8 @@
 		5F9961041AE0CF4F0034F503 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5F9961061AE0CF4F0034F503 /* Images.xcassets */,
-				5F9961071AE0CF4F0034F503 /* LaunchScreen.xib */,
+				B53A77881DDB036300E37E65 /* LaunchScreen.xib */,
+				B53A778A1DDB03E700E37E65 /* Images.xcassets */,
 			);
 			name = Shared;
 			path = ../shared;
@@ -351,10 +349,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F99610C1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */,
-				5F99610A1AE0CF4F0034F503 /* Images.xcassets in Resources */,
 				EF01600C1BD07C1F00F8DA01 /* AnalyticsImages.xcassets in Resources */,
+				B53A77891DDB036300E37E65 /* LaunchScreen.xib in Resources */,
 				5F5A535B1ADE670C00F81DF0 /* Main.storyboard in Resources */,
+				B53A778B1DDB03E700E37E65 /* Images.xcassets in Resources */,
 				B508D2EF1DD1E6AF0044BF1E /* container in Resources */,
 				B5C2C1F81DD45FD500603EA4 /* GoogleService-Info.plist in Resources */,
 			);
@@ -364,10 +362,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F99610D1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */,
 				EF01600D1BD07C1F00F8DA01 /* AnalyticsImages.xcassets in Resources */,
 				5F5A539C1ADE69AA00F81DF0 /* Main.storyboard in Resources */,
-				5F99610B1AE0CF4F0034F503 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
