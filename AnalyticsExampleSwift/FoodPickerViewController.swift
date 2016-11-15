@@ -43,7 +43,7 @@ class FoodPickerViewController: UIViewController, UIPickerViewDelegate, UIPicker
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        FIRAnalytics.logEvent(withName: "screenView", parameters: ["screenName":"Home" as NSObject])
+        FIRAnalytics.logEvent(withName: "screenView", parameters: ["screenName":"Home"])
     }
 
   func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
