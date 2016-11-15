@@ -1,0 +1,6 @@
+framework module Pods_AnalyticsExampleSwift {
+  umbrella header "Pods-AnalyticsExampleSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
