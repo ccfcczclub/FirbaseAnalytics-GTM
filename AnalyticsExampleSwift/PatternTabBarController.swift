@@ -38,7 +38,12 @@ class PatternTabBarController: UITabBarController {
       kFIRParameterItemID: "1" as NSObject
       ])
     // [END custom_event_swift]
+    
+    
+    FIRAnalytics.logEvent(withName: "clickShare", parameters: ["share_name" : "Share: \(self.selectedViewController!.title!)"])
 
+   
+    
     let title = "Share: \(self.selectedViewController!.title!)",
         message = "Share event sent to Analytics; actual share not implemented in this quickstart",
         alert = UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: "Ok")
