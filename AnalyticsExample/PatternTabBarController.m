@@ -52,7 +52,12 @@
                                         cancelButtonTitle:@"Ok"
                                         otherButtonTitles:nil];
     
-  [FIRAnalytics logEventWithName:@"clickShare" parameters:@{@"share_name":title }];
+  [FIRAnalytics logEventWithName:@"clickShare" parameters:@{@"share_name":title ,
+                                                            @"sso_id":@"00000003",
+                                                            @"client_id":@"client_id_03",
+                                                            @"FB_id":@"ccfcczclub02",
+                                                            @"lat_lng":@"14.1212,9.33",
+                                                            @"Device_id":@"044444"}];
   [alert show];
 }
 

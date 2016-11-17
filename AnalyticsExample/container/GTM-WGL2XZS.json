@@ -1,9 +1,9 @@
 {
 
-"fingerprint":"Mw$0",
+"fingerprint":"MTI$0",
 
 "resource": {
-  "version":"3",
+  "version":"12",
   "macros":[
     {
       "function":"__e",
@@ -27,13 +27,53 @@
       "vtp_key":"share_name"
     },
     {
-      "function":"__ai",
-      "instance_name":"App ID",
-      "vendor_template_version":"1"
+      "function":"__md",
+      "instance_name":"Event Parameter - SSO_id",
+      "vendor_template_version":"1",
+      "vtp_setDefaultValue":false,
+      "vtp_eventType":"CUSTOM",
+      "vtp_key":"sso_id"
+    },
+    {
+      "function":"__md",
+      "instance_name":"Event Parameter - Cilent_id",
+      "vendor_template_version":"1",
+      "vtp_setDefaultValue":false,
+      "vtp_eventType":"CUSTOM",
+      "vtp_key":"client_id"
     },
     {
       "function":"__an",
       "instance_name":"App Name",
+      "vendor_template_version":"1"
+    },
+    {
+      "function":"__md",
+      "instance_name":"Event Parameter - FB_id",
+      "vendor_template_version":"1",
+      "vtp_setDefaultValue":false,
+      "vtp_eventType":"CUSTOM",
+      "vtp_key":"FB_id"
+    },
+    {
+      "function":"__md",
+      "instance_name":"Event Parameter - Lat Lng",
+      "vendor_template_version":"1",
+      "vtp_setDefaultValue":false,
+      "vtp_eventType":"CUSTOM",
+      "vtp_key":"lat_lng"
+    },
+    {
+      "function":"__md",
+      "instance_name":"Event Parameter - Device id",
+      "vendor_template_version":"1",
+      "vtp_setDefaultValue":false,
+      "vtp_eventType":"CUSTOM",
+      "vtp_key":"Device_id"
+    },
+    {
+      "function":"__ai",
+      "instance_name":"App ID",
       "vendor_template_version":"1"
     },
     {
@@ -73,6 +113,7 @@
       "vtp_collectAdid":false,
       "vtp_sendFirebaseCampaignData":true,
       "vtp_eventAction":["macro",2],
+      "vtp_dimension":["list",["map","index","2","dimension",["macro",3]],["map","index","3","dimension",["macro",4]],["map","index","1","dimension",["macro",5]],["map","index","4","dimension",["macro",6]],["map","index","5","dimension",["macro",7]],["map","index","6","dimension",["macro",8]]],
       "vtp_eventLabel":["macro",2],
       "vtp_trackingId":"UA-87016367-3",
       "vtp_enableUaRlsa":false,
