@@ -23,6 +23,7 @@
  */
 @interface PatternTabBarController : UITabBarController
 
+
 - (IBAction)didTapShare:(id)sender;
 
 @end

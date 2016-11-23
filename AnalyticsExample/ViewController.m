@@ -29,9 +29,17 @@
   [super viewWillAppear:animated];
 
   NSString *name = [NSString stringWithFormat:@"Pattern~%@", self.title];
-  [FIRAnalytics logEventWithName:@"screenView" parameters:@{
-                                                    @"screenName":name
-                                                    }];
+    NSString *sso_id = [NSString stringWithFormat:@"sso_id_%@", self.title];
+    NSString *client_id = [NSString stringWithFormat:@"client_id_%@", self.title];
+    NSString *FB_id = [NSString stringWithFormat:@"FB_id_%@", self.title];
+  
+    
+    [FIRAnalytics logEventWithName:@"screenView" parameters:@{ @"screenName":name,
+                                                             @"sso_id":sso_id,
+                                                             @"client_id":client_id,
+                                                             @"FB_id":FB_id,
+                                                             @"lat_lng":@"14.1212,9.33",
+                                                             @"Device_id":@"044444"}];
 }
 
 @end
